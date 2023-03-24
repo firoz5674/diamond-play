@@ -11,9 +11,9 @@ function Footer() {
           <Col md={12}>
             <div className='text-center'>
               <ul>
-                <li><a href='#'>terms and conditions</a></li>
-                <li><a href='#'>game addictions</a></li>
-                <li><a href='#'>privacy policy</a></li>
+                <li><Link to='/'>terms and conditions</Link></li>
+                <li><Link to='/'>game addictions</Link></li>
+                <li><Link to='/'>privacy policy</Link></li>
               </ul>
             </div>
           </Col>

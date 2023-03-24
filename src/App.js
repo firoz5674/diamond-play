@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import {
   Routes,
   Route,
+  Link
 } from "react-router-dom";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 
@@ -22,7 +23,7 @@ function App() {
       <div className="fixed-whatsapp">
         <div className="d-flex align-items-center">
           <img src={whatsappImg} alt="" />
-          <a href="https://wa.link/diamondplaysearch" className="mb-0">Click here to get ID</a>
+          <Link to="/" className="mb-0">Click here to get ID</Link>
         </div>
       </div>
     </div>

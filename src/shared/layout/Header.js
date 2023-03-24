@@ -1,7 +1,7 @@
 
 
 import React, { useState } from 'react';
-import { Container, Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem } from 'reactstrap';
+import { Container, Navbar, NavbarToggler, Collapse, Nav, NavItem } from 'reactstrap';
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -12,7 +12,7 @@ function Header() {
     <header className='header'>
       <Container>
         <Navbar expand="sm">
-          <NavbarBrand href="/">Get Trusted Online ID Here</NavbarBrand>
+          <Link to="/">Get Trusted Online ID Here</Link>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>

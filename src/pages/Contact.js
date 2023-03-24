@@ -6,6 +6,7 @@ import { Container, Row, Col, Card } from 'reactstrap';
 import locationIcon from "../assets/images/location.png";
 import phoneIcon from "../assets/images/telephone.png";
 import envelopeIcon from "../assets/images/email.png";
+import {Link} from "react-router-dom";
 
 function Contact() {
   return (
@@ -34,7 +35,7 @@ function Contact() {
               <Card>
                 <h4>Address:</h4>
                 <div className='d-flex align-items-center'>
-                  <a href='https://wa.link/diamondplaysearch'><img src={phoneIcon} alt="" /> <span>Whatsapp</span></a>
+                  <Link to='/'><img src={phoneIcon} alt="" /> <span>Whatsapp</span></Link>
                 </div>
               </Card>
             </Col>
