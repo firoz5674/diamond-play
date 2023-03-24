@@ -4,7 +4,7 @@ import instaIcon from "../assets/images/instagram.png";
 import teleIcon from "../assets/images/telegram.png";
 import whatsappIcon from "../assets/images/whatsapp.png";
 import CommonBanner from '../components/CommonBanner';
-import Link from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
