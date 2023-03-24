@@ -1,0 +1,90 @@
+
+.home-main {
+  .welcome-section {
+    padding: 40px 0px;
+    .welcome-text {
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.12);
+      padding: 40px;
+      @media (max-width: 576px) {
+        padding: 22px;
+      }
+      .welcome-title {
+        font-weight: 800;
+        font-size: 26px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        span {
+          color: $primary-color;
+        }
+      }
+      .welcome-info {
+        color: #6c6c6c;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+      }
+      ul {
+        padding-inline-start: 3px;
+        li {
+          list-style: none;
+          color: #6c6c6c;
+          font-family: 'Poppins', sans-serif;
+          font-weight: 400;
+          font-size: 15px;
+          border-bottom: 1px solid rgb(227, 227, 227);
+          padding: 16px 0px;
+        }
+      }
+      .social-media {
+        margin: 50px 0px;
+        h4 {
+          color: #989898;
+          font-weight: 600;
+          position: relative;
+          margin-bottom: 50px;
+          &::after {
+            content: "";
+            width: 40px;
+            height: 3px;
+            background-color: #25d366;
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            top: 140%;
+          }
+        }
+        ul {
+          padding-inline-start: initial;
+          display: flex;
+          align-items: center;
+          li {
+            margin-right: 20px;
+            border-bottom: none;
+            a {
+              background-color: #25d366;
+              width: 50px;
+              height: 50px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-radius: 4px;
+              &.insta {
+                background-color: rgb(59, 89, 152);
+              }
+              &.tele {
+                background-color: #55acee;
+              }
+              &.whatsapp {
+                background-color: #d71e18;
+              }
+              > img {
+                width: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

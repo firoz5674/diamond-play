@@ -1,0 +1,166 @@
+
+  
+  
+.common-banner {
+  background: url("../../assets/images/diamond-bg.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  padding: 60px 0px;
+  .common-banner__content {
+    text-align: center;
+    .logo {
+      width: 250px;
+    }
+    .play-text {
+      font-family: 'Poppins', sans-serif;
+      text-transform: uppercase;
+      color: $primary-color;
+      font-weight: 700;
+      margin: 30px 0px;
+      @media (max-width: 576px) {
+        line-height: 1.5;
+      }
+    }
+    .whatsapp-btn {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fdd002;
+      border-radius: 6px;
+      color: #1c1121;
+      text-transform: uppercase;
+      font-weight: 700;
+      padding: 16px 30px 14px 30px;
+      border: none;
+      margin-bottom: 24px;
+      display: inline-block;
+    }
+    .title {
+      font-size: 100px;
+      color: white;
+      font-family: 'Oxanium', cursive;
+      font-weight: 800;
+      padding: 0px 8%;
+      text-transform: uppercase;
+      line-height: 1;
+      margin-bottom: 30px;
+      @media (max-width: 576px) {
+        padding: 0;
+        font-size: 32px;
+        line-height: 1.4;
+      }
+      span {
+        color: $primary-color;
+      }
+    }
+    .info {
+      font-size: 18px;
+      color: #dadada;
+      font-weight: 600;
+      font-family: 'Poppins', sans-serif;
+      padding: 0px 24%;
+      line-height: 1.8;
+      @media (max-width: 576px) {
+        padding: 0;
+      }
+    }
+  }
+}
+
+// privacy policy page
+.privacy-policy {
+	padding: 40px 0px;
+	font-family: 'Poppins', sans-serif;
+	.privacy-policy__content {
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+		padding: 50px 32px;
+		h1 {
+			font-family: 'Oxanium', cursive;
+			font-size: 32px;
+			font-weight: 700;
+			text-transform: uppercase;
+			> span {
+				color: $primary-color;
+			}
+		}
+    .title {
+      font-family: 'Oxanium', cursive;
+      font-weight: 700;
+      font-size: 30px;
+    }
+		p {
+			font-size: 14px;
+			font-weight: 500;
+		}
+		ul {
+			li {
+				list-style: none;
+				color: #6c6c6c;
+				font-family: 'Poppins', sans-serif;
+				font-weight: 400;
+				font-size: 15px;
+				border-bottom: 1px solid rgb(227, 227, 227);
+				padding: 16px 0px;
+			}
+		}
+	}
+}
+
+
+.fixed-whatsapp {
+  position: fixed;
+  left: 0;
+  bottom: 100px;
+  z-index: 9999;
+  background-color: #25d366;
+  padding: 16px;
+  border-radius: 0px 14px 14px 0px;
+  img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  a {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+  }
+}
+
+
+.contact {
+  padding: 40px 0px;
+  .card {
+    align-items: center;
+    padding: 42px 0px;
+    min-height: 170px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(18, 62, 156, 0.12);
+    @media (max-width: 576px) {
+      margin-bottom: 30px;
+    }
+    img {
+      width: 32px;
+      margin-right: 12px;
+    }
+    h4 {
+      font-family: 'Oxanium', cursive;
+      font-weight: 700;
+      margin-bottom: 22px;
+    }
+    a {
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      font-size: 17px;
+      font-weight: 600;
+      display: inline-block;
+      color: rgb(87, 87, 87);
+    }
+    span {
+      font-weight: 600;
+      font-size: 17px;
+      display: inline-block;
+      color: rgb(87, 87, 87);
+      font-family: 'Poppins', sans-serif;
+    }
+  }
+}
