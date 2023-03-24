@@ -4,7 +4,6 @@ import Header from "./shared/layout/Header";
 import whatsappImg from "./assets/images/whatsapp.png";
 import Contact from "./pages/Contact";
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";

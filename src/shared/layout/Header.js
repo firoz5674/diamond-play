@@ -1,7 +1,7 @@
 
 
 import React, { useState } from 'react';
-import { Container, Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink } from 'reactstrap';
+import { Container, Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem } from 'reactstrap';
 import { Link } from "react-router-dom";
 
 function Header() {

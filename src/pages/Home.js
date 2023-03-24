@@ -4,6 +4,7 @@ import instaIcon from "../assets/images/instagram.png";
 import teleIcon from "../assets/images/telegram.png";
 import whatsappIcon from "../assets/images/whatsapp.png";
 import CommonBanner from '../components/CommonBanner';
+import Link from "react-router-dom";
 
 function Home() {
   return (
@@ -31,9 +32,9 @@ function Home() {
                 <div className='social-media'>
                   <h4>Follow us</h4>
                   <ul>
-                    <li><a href='#' className='insta'><img src={instaIcon} alt="" /></a></li>
-                    <li><a href='#' className='tele'><img src={teleIcon} alt="" /></a></li>
-                    <li><a href='#' className='whatsapp'><img src={whatsappIcon} alt="" /></a></li>
+                    <li><Link to='/' className='insta'><img src={instaIcon} alt="" /></Link></li>
+                    <li><Link to='/' className='tele'><img src={teleIcon} alt="" /></Link></li>
+                    <li><Link to='/' className='whatsapp'><img src={whatsappIcon} alt="" /></Link></li>
                   </ul>
                 </div>
               </div>
